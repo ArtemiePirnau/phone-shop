@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body class="preloader">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo text" href="#"> PHONE STORE </a>
+          <ul class="header__list">
+            <li class="list__item">
+              <a href="#" class="list__link">
+                <svg
+                  class="svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 31 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.6122 0L29.6645 2.5H27.2041L22.773 17.5H5.88648L0 3.75H21.4439L20.7245 6.25H3.83673L7.58291 15H20.8839L25.2615 0H30.6122V0ZM10.8418 18.75C9.78571 18.75 8.92857 19.59 8.92857 20.625C8.92857 21.6612 9.78571 22.5 10.8418 22.5C11.898 22.5 12.7551 21.6612 12.7551 20.625C12.7551 19.59 11.898 18.75 10.8418 18.75ZM19.6429 10L17.2194 18.75C16.1633 18.75 15.3061 19.5888 15.3061 20.625C15.3061 21.6612 16.1633 22.5 17.2194 22.5C18.2755 22.5 19.1327 21.6612 19.1327 20.625C19.1327 19.59 18.2755 18.75 17.2194 18.75L19.6429 10Z"
+                    fill="#F0F0F4"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                <svg
+                  class="svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="11" cy="11" r="6" stroke="white" />
+                  <path
+                    d="M20 20L17 17"
+                    stroke="white"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                <svg
+                  class="svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 7H19"
+                    stroke="#CCD2E3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M5 12H19"
+                    stroke="#CCD2E3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M5 17H19"
+                    stroke="#CCD2E3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="categories section">
+        <div class="container">
+          <div class="categories__items">
+            <div class="categories__item">
+              <h3 class="categories__item-title title text">Samsung</h3>
+              <a class="categories__item-link" href="#">
+                <picture>
+                  <source srcset="./images/content/samsung.jpg" />
+                  <source srcset="./images/content/samsung.jpg" />
+                  <img
+                    class="categories__item-picture"
+                    src="./images/content/samsung.jpg"
+                    alt="samsung"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="categories__item">
+              <h3 class="categories__item-title title text">iPhone</h3>
+              <a class="categories__item-link" href="#">
+                <picture>
+                  <source srcset="./images/content/iphone.jpg" />
+                  <source srcset="./images/content/iphone.jpg" />
+                  <img
+                    class="categories__item-picture"
+                    src="./images/content/iphone.jpg"
+                    alt="iphone"
+                  />
+                </picture>
+              </a>
+            </div>
+            <div class="categories__item">
+              <h3 class="categories__item-title title text">Xiaomi</h3>
+              <a class="categories__item-link" href="#">
+                <picture>
+                  <source srcset="./images/content/xiaomi.jpg" />
+                  <source srcset="./images/content/xiaomi.jpg" />
+                  <img
+                    class="categories__item-picture"
+                    src="./images/content/xiaomi.jpg"
+                    alt="xiaomi"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sale">
+        <div class="container">
+          <h3 class="sale__title title text">Распродажа</h3>
+          <div class="sale__slider">
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/1.webp" />
+                <source srcset="./images/content/1.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/1.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/2.webp" />
+                <source srcset="./images/content/2.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/2.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/3.webp" />
+                <source srcset="./images/content/3.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/3.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/1.webp" />
+                <source srcset="./images/content/1.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/1.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="sale section">
+        <div class="container">
+          <div class="sale__slider">
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/1.webp" />
+                <source srcset="./images/content/1.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/1.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/2.webp" />
+                <source srcset="./images/content/2.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/2.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/3.webp" />
+                <source srcset="./images/content/3.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/3.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+
+            <a class="slider__item slider__item--sale" href="#">
+              <span class="sale__text"> -17% </span>
+              <picture>
+                <source srcset="./images/content/1.webp" />
+                <source srcset="./images/content/1.webp" />
+                <img
+                  class="sale__item-img"
+                  src="./images/content/1.webp"
+                  alt="slider item"
+                />
+              </picture>
+              <div class="sale__prices">
+                <p class="sale__item-price--new text">9359 р.</p>
+                <p class="sale__item-price--old">24 000 р.</p>
+              </div>
+              <h6 class="sale__item-name text">Name of product</h6>
+            </a>
+          </div>
+          <a class="sale__link" href="#"> Открыть каталог </a>
+        </div>
+      </section>
+      <section class="news section">
+        <div class="container">
+          <div class="news__items">
+            <div class="news__item">
+              <a class="news__item-title text" href="#">Как выбрать планшет?</a>
+              <img
+                class="news__item-img"
+                src="./images/content/news-1.jpg"
+                alt="news image"
+              />
+            </div>
+            <div class="news__item">
+              <a class="news__item-title text" href="#"
+                >Как правильно выбрать принтер?</a
+              >
+              <img
+                class="news__item-img"
+                src="./images/content/news-2.jpg"
+                alt="news image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__top-inner">
+            <div class="footer__top-item footer__top-newslatter">
+              <h5 class="footer__top-title text">
+                Подпишитесь на&nbsp;нашу рассылку и&nbsp;узнавайте о&nbsp;акция
+                быстрее
+              </h5>
+              <form class="footer-form">
+                <input
+                  class="footer-form__input"
+                  type="text"
+                  placeholder="Введите ваш e-mail:"
+                />
+                <button class="footer-form__btn text" type="submit">
+                  Отправить
+                </button>
+              </form>
+            </div>
+            <div class="footer__top-item">
+              <h5 class="footer__top-title text">Информация</h5>
+              <ul class="footer-list">
+                <li class="footer-list__item text">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="footer-list__item text"><a href="#">Контакты</a></li>
+                <li class="footer-list__item text"><a href="#">Акции</a></li>
+                <li class="footer-list__item text"><a href="#">Магазины</a></li>
+              </ul>
+            </div>
+            <div class="footer__top-item">
+              <h5 class="footer__top-title text">Интернет-магазин</h5>
+              <ul class="footer-list">
+                <li class="footer-list__item text">
+                  <a href="#">Доставка и самовывоз</a>
+                </li>
+                <li class="footer-list__item text"><a href="#">Оплата</a></li>
+                <li class="footer-list__item text">
+                  <a href="#">Возврат-обмен</a>
+                </li>
+                <li class="footer-list__item text"><a href="#">Новости</a></li>
+              </ul>
+            </div>
+            <div class="footer__top-item">
+              <ul class="footer-social">
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <img
+                      class="footer-social__img"
+                      src="./images/social-1.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <img
+                      class="footer-social__img"
+                      src="./images/social-2.svg"
+                      alt="vk"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <img
+                      class="footer-social__img"
+                      src="./images/social-3.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link" href="#">
+                    <img
+                      class="footer-social__img"
+                      src="./images/social-4.svg"
+                      alt="youtube"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <a class="footer__bottom-link text" href="#">Договор оферты</a>
+          <a class="footer__bottom-link text" href="#"
+            >Политика обработки персональных данных</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
